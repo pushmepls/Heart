@@ -1,7 +1,6 @@
 body {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	background: #2c3e50;
 }
 
@@ -39,15 +38,6 @@ h1 {
 	animation: spin 0.1s linear infinite;
 }
 
-.box {
-	width: 1000px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	flex-direction: column;
-}
 
 #pinkboard {
 	position: relative;
