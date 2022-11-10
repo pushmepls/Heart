@@ -3,12 +3,17 @@ body {
 	justify-content: center;
 	align-items: center;
 	background: #2c3e50;
-	overflow: hidden;
 }
 
 h1 {
+	border: 1px solid pink;
+	border-radius: 5px;
 	color: pink;
-	z-index: 999
+	z-index: 999;
+	text-align: center;
+	padding: 10px;
+    width: fit-content;
+	margin:auto
 }
 
 @keyframes spin {
